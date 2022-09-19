@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".YoutubeActivity">
     <WebView
-        android:id="@+id/vidview"
+        android:id="@+id/webview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="Hello World!"
@@ -16,5 +16,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingbtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_image_24"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
